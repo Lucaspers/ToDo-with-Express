@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: cursive;
+}
+
+body {
+    background-color: #c5edcf;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rubrikText {
+    font-size: 3em;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.inputDiv {
+    padding: 1em;
+}
+
+.inputText {
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 25px;
+    outline: none;
+    background-color: #c5edcf;
+}
+
+.listDiv {
+    padding: 2em;
+}
+
+.removeButton {
+    background-color:#44c767;
+    border-radius:42px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:16px;
+    padding: 0,5em;
+    text-decoration:none;
+    text-shadow:0px 0px 0px #2f6627;
+    margin-left: 6px;
+    outline: none;
+}
+
+#spara {
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:4px 18px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    outline: none;
+}
+
+.li {
+    padding: 6px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
